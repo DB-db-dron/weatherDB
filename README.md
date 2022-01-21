@@ -41,7 +41,7 @@ GET https://weatherdbi.herokuapp.com/data/weather/hello
 ## Upcomming features
 - hourly temperature forecasts
 - precipitation forecast
-- hitorical data on specified location
+- historical data on specified location
 
 <br><br><br>
 ## Support Us
