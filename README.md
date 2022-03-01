@@ -4,7 +4,8 @@ Get current weather, **daily forecast for 7 days** and weather icons for your ci
 <br><br><br>
 ## Useful Links
 - [Home page](https://weatherdbi.herokuapp.com)
-- [Documentation page](https://weatherdbi.herokuapp.com/documentation)
+- [Documentation page](https://weatherdbi.herokuapp.com/documentation/v1)
+- [Release Notes](https://weatherdbi.herokuapp.com/release-notes)
 
 <br><br><br>
 ## API Endpoint
