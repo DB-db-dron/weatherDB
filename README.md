@@ -1,10 +1,10 @@
 # [weatherDB](https://weatherdbi.herokuapp.com)
 Get current weather, **daily forecast for 7 days** and weather icons for your city. **No authentication or API key required**... **Simple, easy and free** weather API.<br><br>
-Our mission is to provide free, good quality weather data to anyone, anywhere.
+Our mission is to provide free, good quality weather data to anyone, anywhere. [Join us today](https://github.com/DB-db-dron/weatherDB#:~:text=Join%20us%20today)
 
 <br><br><br>
 ## Useful Links
-- Find us on [**Google**](https://www.google.com/search?q=site%3Aweatherdbi.herokuapp.com), [Bing](https://www.bing.com/search?q=site%3Aweatherdbi.herokuapp.com), [Yahoo](https://search.yahoo.com/search?p=site:weatherdbi.herokuapp.com)
+- **_Find us on_** [**_Google_**](https://www.google.com/search?q=site%3Aweatherdbi.herokuapp.com), [Bing](https://www.bing.com/search?q=site%3Aweatherdbi.herokuapp.com), [Yahoo](https://search.yahoo.com/search?p=site:weatherdbi.herokuapp.com)
 - [Home page](https://weatherdbi.herokuapp.com)
 - [Documentation page](https://weatherdbi.herokuapp.com/documentation/v1)
 - [Release Notes](https://weatherdbi.herokuapp.com/release-notes)
@@ -58,5 +58,12 @@ If you like our idea, please support us by sharing words about our api with othe
 
 <br><br><br>
 ## Contact us
-Mail us for feature requests, improvement, bug, help, ect... Please tell us if you want us to provide any other free easy-to-use API services<br>
-Email: communication.with.users@gmail.com
+Mail us for feature requests, improvement, bug, issue, help, ect...<br>
+Email: **_communication.with.users@gmail.com_**<br>
+You can send us a message from our website: [Talk to us Section](https://weatherdbi.herokuapp.com/#:~:text=talk%20to%20us)
+
+
+<br><br><br>
+## Join us today!
+Want to contribute to this API? You are welcome. Send an email to **_communication.with.users@gmail.com_** mentioning your skills. We will reach out to you as soon as possible.<br>
+**We are looking for _front-end developers_ with sufficient knowledge of html, css and Javascript.**
