@@ -1,6 +1,6 @@
 # [weatherDB](https://weatherdbi.herokuapp.com)
 Get current weather, **daily forecast for 7 days** and weather icons for your city. **No authentication or API key required**... **Simple, easy and free** weather API.<br><br>
-Our mission is to provide free, good quality weather data to anyone, anywhere. [Join us today](https://github.com/DB-db-dron/weatherDB#:~:text=Join%20us%20today)
+Our mission is to provide free, good quality weather data to anyone, anywhere. [Join us today](#join-us-today)
 
 <br><br><br>
 ## Useful Links
