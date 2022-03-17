@@ -33,7 +33,7 @@ https://weatherdbi.herokuapp.com/data/weather/london
 See response: https://weatherdbi.herokuapp.com/data/weather/london
 
 <br><br>
-**GET request with invalid query**
+**GET request with invalid query**: This error occurs when the specified location does not exists, weather data for that location is not available, there is a spelling error or there is any other popular name for that location.
 ```
 https://weatherdbi.herokuapp.com/data/weather/hello
 ```
@@ -42,7 +42,25 @@ https://weatherdbi.herokuapp.com/data/weather/hello
 {
     "status": "fail",
     "message": "invalid query",
-    "query": "hello"
+    "query": "hello",
+    "code": 0,
+    "visit": "https://weatherdbi.herokuapp.com/documentation/v1"
+}
+```
+
+<br><br>
+**GET request with invalid query**: This error occurs when possible harmful characters are present in the query. To avoid this, do not put anything other than A-Z, a-z, 0-9, hyphen, comma, plus, space, &, full stop in the query.
+```
+https://weatherdbi.herokuapp.com/data/weather/l*)$o@nd'o%20n
+```
+**Error Response:**
+```json
+{
+    "status": "fail",
+    "message": "Rejected characters in query",
+    "query": "l*)$o@nd'o n",
+    "rejected": "*)$@'",
+    "code": 1
 }
 ```
 
