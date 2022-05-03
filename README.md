@@ -23,26 +23,38 @@ https://weatherdbi.herokuapp.com/data/weather/{location}
 Replace `{location}` with the required location. <br>
 For example: london, newyork, us, papuanewguinea, sanmarino, elsalvador
 
+### Using geographical coordinates (experimental feature)
+```
+https://weatherdbi.herokuapp.com/data/weather/{lat,long}
+```
+Here lat=latitude and long=longitude. Note that order is important. Remember that only **decimal format** of coordinates is supported.<br>
+Replace `{lat,long}` with your desired coordinates like `28.539143,-81.403076` , `41.601418,-87.617012` , `58.756622,-94.083054` , etc. Try to avoid spaces and other unwanted characters. See possible errors below.
+
 <br><br><br>
 ## Response and Error
 **GET request with valid query**
 ```
 https://weatherdbi.herokuapp.com/data/weather/london
+OR
+https://weatherdbi.herokuapp.com/data/weather/41.601418,-87.617012
 ```
-**Response:**
-See response: https://weatherdbi.herokuapp.com/data/weather/london
+**View response of the above API calls:**<br>
+- https://weatherdbi.herokuapp.com/data/weather/london
+- https://weatherdbi.herokuapp.com/data/weather/41.601418,-87.617012
 
 <br><br>
 **GET request with invalid query**: This error occurs when the specified location does not exists, weather data for that location is not available, there is a spelling error or there is any other popular name for that location.
 ```
 https://weatherdbi.herokuapp.com/data/weather/hello
+OR
+https://weatherdbi.herokuapp.com/data/weather/58.756622,-94.08hj3054mk
 ```
-**Error Response:**
-```json
+**Error Response** *(200 - OK)*:
+```cjson
 {
     "status": "fail",
     "message": "invalid query",
-    "query": "hello",
+    "query": "hello", // or "58.756622,-94.08hj3054mk" for coordinates
     "code": 0,
     "visit": "https://weatherdbi.herokuapp.com/documentation/v1"
 }
@@ -53,7 +65,7 @@ https://weatherdbi.herokuapp.com/data/weather/hello
 ```
 https://weatherdbi.herokuapp.com/data/weather/l*)$o@nd'o%20n
 ```
-**Error Response:**
+**Error Response** *(400 - Bad Request)*:
 ```json
 {
     "status": "fail",
@@ -61,6 +73,21 @@ https://weatherdbi.herokuapp.com/data/weather/l*)$o@nd'o%20n
     "query": "l*)$o@nd'o n",
     "rejected": "*)$@'",
     "code": 1
+}
+```
+
+<br><br>
+**GET request with invalid query**: This error occurs only when using coordinates. Make minimum number of requests with coordinates to avoid this error. Please remember that this is a free service and use accordingly.
+```
+https://weatherdbi.herokuapp.com/data/weather/41.601418,-87.617012
+```
+**Error Response** *(503 - Service Unavailable)*:
+```json
+{
+    "status": "fail",
+    "message": "Search by coordinates not available due to excessive use of this feature. Try after sometime or avail other methods available",
+    "query": "41.601418,-87.617012",
+    "code": 2,
 }
 ```
 
