@@ -99,7 +99,7 @@ https://weatherdbi.herokuapp.com/data/weather/41.601418,-87.617012
 
 <br><br><br>
 ## Support Us
-If you like our idea, please support us by sharing words about our api with others. Write about us in your blog and create youtube tutorial using our api. Don't forget to give us a star on GitHub. **Your support is our reward and our source of enthusiasm and encouragement**. [Share new idea](https://github.com/DB-db-dron/weatherDB/discussions/new?category=ideas) for this API in the Discussions.
+If you like our idea, please support us by sharing words about our api with others. Write about us in your blog and create youtube tutorial using our api. Don't forget to star ✨ this repository. **Your support is our reward and our source of enthusiasm and encouragement**. [Share new idea](https://github.com/DB-db-dron/weatherDB/discussions/new?category=ideas) for this API in the Discussions.
 
 <br><br><br>
 ## Contact us
