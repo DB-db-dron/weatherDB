@@ -1,6 +1,9 @@
 # [weatherDB](https://weatherdbi.herokuapp.com)
-Get current weather, **daily forecast for 7 days** and weather icons for your city. **No authentication or API key required**... **Simple, easy and free** weather API.<br><br>
+Get current weather, **daily forecast for 7 days** and weather icons for your city. **No authentication or API key required**... **Simple, easy and free** weather API.<br>
 Our mission is to provide free, good quality weather data to anyone, anywhere. [Join us today](#join-us-today)
+
+<br>
+<a href="https://www.buymeacoffee.com/weatherdbi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 <br><br><br>
 ## Useful Links
@@ -100,6 +103,8 @@ https://weatherdbi.herokuapp.com/data/weather/41.601418,-87.617012
 <br><br><br>
 ## Support Us
 If you like our idea, please support us by sharing words about our api with others. Write about us in your blog and create youtube tutorial using our api. Don't forget to star ✨ this repository. **Your support is our reward and our source of enthusiasm and encouragement**. [Share new idea](https://github.com/DB-db-dron/weatherDB/discussions/new?category=ideas) for this API in the Discussions.
+<br><br>
+<a href="https://www.buymeacoffee.com/weatherdbi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 <br><br><br>
 ## Contact us
