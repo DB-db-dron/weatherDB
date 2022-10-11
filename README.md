@@ -5,6 +5,9 @@ Our mission is to provide free, good quality weather data to anyone, anywhere. [
 <br>
 <a href="https://www.buymeacoffee.com/weatherdbi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
+### Important Notice
+[#12 Expense problem due to removal of Heroku's free tier](https://github.com/DB-db-dron/weatherDB/issues/12)
+
 <br><br><br>
 ## Useful Links
 - **_Find us on_** [**_Google_**](https://www.google.com/search?q=site%3Aweatherdbi.herokuapp.com), [Bing](https://www.bing.com/search?q=site%3Aweatherdbi.herokuapp.com), [Yahoo](https://search.yahoo.com/search?p=site:weatherdbi.herokuapp.com)
