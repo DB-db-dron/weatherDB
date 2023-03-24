@@ -6,7 +6,9 @@ Our mission is to provide free, good quality weather data to anyone, anywhere. [
 <a href="https://www.buymeacoffee.com/weatherdbi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ### Important Notice
-As of 12/11/2022, any work in the API is temporarily paused for indefinite time period.<br>
+- (24/03/2023) Plan to Resume API Service with Improvements and Proposed Pricing Model - Seeking Feedback <br>
+For detailed info visit this link -> https://github.com/DB-db-dron/weatherDB/issues/12#issuecomment-1482855912
+- As of 12/11/2022, any work in the API is temporarily paused for indefinite time period.<br>
 [#12 Expense problem due to removal of Heroku's free tier](https://github.com/DB-db-dron/weatherDB/issues/12)
 
 <br><br><br>
