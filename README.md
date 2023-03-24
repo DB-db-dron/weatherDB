@@ -8,6 +8,7 @@ Our mission is to provide free, good quality weather data to anyone, anywhere. [
 ### Important Notice
 - (24/03/2023) Plan to Resume API Service with Improvements and Proposed Pricing Model - Seeking Feedback <br>
 For detailed info visit this link -> https://github.com/DB-db-dron/weatherDB/issues/12#issuecomment-1482855912
+- the site is available at [https://weatherdbi.herokuapp.com (waybackmachine)](https://web.archive.org/web/20221020085710/https://weatherdbi.herokuapp.com/)
 - As of 12/11/2022, any work in the API is temporarily paused for indefinite time period.<br>
 [#12 Expense problem due to removal of Heroku's free tier](https://github.com/DB-db-dron/weatherDB/issues/12)
 
