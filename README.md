@@ -5,6 +5,10 @@ Our mission is to provide free, good quality weather data to anyone, anywhere. [
 <br>
 <a href="https://www.buymeacoffee.com/weatherdbi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
+### Contributors
+- [Rituraj Datta](https://github.com/riturajcodes)
+- [Dron Bhattacharya](https://github.com/DB-db-dron/)
+
 ### Important Notice
 - (24/03/2023) Plan to Resume API Service with Improvements and Proposed Pricing Model - Seeking Feedback <br>
 For detailed info visit this link -> https://github.com/DB-db-dron/weatherDB/issues/12#issuecomment-1482855912
